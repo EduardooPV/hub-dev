@@ -8,6 +8,7 @@ const GlobalStyles = createGlobalStyle`
 
   --blue-300: #0798F2;
   --green-300: #04D98B;
+  --green-600: #00B271;
 
   --gray-300: #a8a8b3;
   --gray-800: #29292e;
@@ -31,9 +32,13 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
   scroll-behavior: smooth;
+  text-decoration: none;
+  box-sizing: border-box;
+	font: inherit;
+  color: inherit;
+  font-family: Roboto, sans-serif;
 }
 
 article, aside, details, figcaption, figure, 
