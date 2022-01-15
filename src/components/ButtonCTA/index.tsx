@@ -1,13 +1,13 @@
 import { ButtonContainer } from './styles' 
 
 interface ButtonProps {
-  href: string
+  text: string
 }
 
-export function Button({ href }: ButtonProps) {
+export function Button({ text }: ButtonProps) {
   return (
     <ButtonContainer href="">
-      {href}
+      {text}
     </ButtonContainer>
   )
 } 

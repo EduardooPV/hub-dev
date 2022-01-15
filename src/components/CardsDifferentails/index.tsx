@@ -5,12 +5,21 @@ import { useEffect, useState } from "react";
 
 import { Container, Card } from "./styles";
 
-import Icon1 from "../../../public/components/CardDifferentails/icon1.svg";
-import Icon2 from "../../../public/components/CardDifferentails/icon2.svg";
-import Icon3 from "../../../public/components/CardDifferentails/icon3.svg";
+interface CardDifferentailsProps {
+  props: {
+    cardDifferentails: {
+      card1: {
+        icon: any
+        title: string
+        description: string
+      }
+    }
+  }
+}
 
-export function CardDifferentails() {
+export function CardDifferentails({ props }: CardDifferentailsProps) {
   const [isWidth, setIsWidth] = useState(0);
+
   useEffect(() => {
     setIsWidth(window.innerWidth);
     window.addEventListener("resize", () => {
@@ -41,42 +50,21 @@ export function CardDifferentails() {
   return (
     <Container>
         <Slide {...properties}>
-          <Card>
-            <div>
-              <Image src={Icon1} alt="Icone" aria-hidden="true" />
-            </div>
 
-            <p>Controle de reputação</p>
+          {
+            Object.values(props.cardDifferentails).map((card, index) => (
+              <Card key={index}>
+                <div>
+                  <Image src={card.icon} alt="Icone" aria-hidden="true" />
+                </div>
 
-            <span>
-              Acompanhe o que seus clientes estão dizendo e gerencie a reputação
-              online de sua empresa de forma automatizada.
-            </span>
-          </Card>
-          <Card>
-            <div>
-              <Image src={Icon2} alt="Icone" aria-hidden="true" />
-            </div>
+                <p>{card.title}</p>
 
-            <p>Controle de reputação</p>
-
-            <span>
-              Acompanhe o que seus clientes estão dizendo e gerencie a reputação
-              online de sua empresa de forma automatizada.
-            </span>
-          </Card>
-          <Card>
-            <div>
-              <Image src={Icon3} alt="Icone" aria-hidden="true" />
-            </div>
-
-            <p>Controle de reputação</p>
-
-            <span>
-              Acompanhe o que seus clientes estão dizendo e gerencie a reputação
-              online de sua empresa de forma automatizada.
-            </span>
-          </Card>
+                <span>{card.description}</span>
+              </Card>
+            ))
+          }
+          
         </Slide>
     </Container>
   );

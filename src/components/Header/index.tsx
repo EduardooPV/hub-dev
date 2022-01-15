@@ -1,37 +1,38 @@
-import Image from 'next/image'
-import Logo from '../../../public/Logo.svg'
+import Image from "next/image";
+import Logo from "../../../public/Logo.svg";
 
-import { Button } from '../ButtonCTA'
+import { Button } from "../ButtonCTA";
 
-import { Container, Navbar } from './styles'
+import { Container, Navbar } from "./styles";
+interface HeaderProps {
+  props: {
+    header: {
+      links: string[]
+      buttonCTA: string
+    }
+  };
+}
 
-export function Header() {
+export function Header({ props }: HeaderProps) {
   return (
     <Container>
-        <div>
-          <a href="#">
-            <Image src={Logo} alt="Logo" />
-          </a>
-          <Navbar>
-            <div>
-              <ul>
-                <li>
-                  <a href="#">Início</a>
+      <div>
+        <a href="#">
+          <Image src={Logo} alt="Logo" />
+        </a>
+        <Navbar>
+          <div>
+            <ul>
+              {props.header.links.map((prop, index) => (
+                <li key={index}>
+                  <a href="#">{prop}</a>
                 </li>
-                <li>
-                  <a href="#">Sobre</a>
-                </li>
-                <li>
-                  <a href="#">Serviços</a>
-                </li>
-                <li>
-                  <a href="#">Contato</a>
-                </li>
-              </ul>
-            </div>
-            <Button href="Baixe agora" />
-          </Navbar>
-        </div>
+              ))}
+            </ul>
+          </div>
+          <Button text={props.header.buttonCTA} />
+        </Navbar>
+      </div>
     </Container>
-  )
+  );
 }
