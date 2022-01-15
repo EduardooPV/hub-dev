@@ -2,29 +2,18 @@ import { Container } from './styles'
 
 import { Button } from '../ButtonCTA'
 
-interface BannerCTAProps {
-  props: {
-    bannerCTA: {
-      title: string
-      buttonCTA1: string
-      buttonCTA2: string
-      description: string
-    }
-  }
-}
-
-export function BannerCTA({ props }: BannerCTAProps) {
+export function BannerCTA() {
   return (
     <Container>
       <div>
-        <h5>{props.bannerCTA.title}</h5>
+        <h5>Baixe e teste agora mesmo!</h5>
 
         <div>
-          <Button text={props.bannerCTA.buttonCTA1} />
-          <Button text={props.bannerCTA.buttonCTA2} />
+          <Button text="Download Android" />
+          <Button text="Download iOS" />
         </div>
 
-        <p>{props.bannerCTA.description}</p>
+        <p>Aplicativo multiplataforma, baixe onde e quando quiser</p>
       </div>
     </Container>
   )

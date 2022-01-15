@@ -6,10 +6,7 @@ import { Button } from "../ButtonCTA";
 import { Container, Navbar } from "./styles";
 interface HeaderProps {
   props: {
-    header: {
-      links: string[]
-      buttonCTA: string
-    }
+    header: string[]
   };
 }
 
@@ -23,14 +20,14 @@ export function Header({ props }: HeaderProps) {
         <Navbar>
           <div>
             <ul>
-              {props.header.links.map((prop, index) => (
+              {props.header.map((prop, index) => (
                 <li key={index}>
                   <a href="#">{prop}</a>
                 </li>
               ))}
             </ul>
           </div>
-          <Button text={props.header.buttonCTA} />
+          <Button text="Baixe agora mesmo" />
         </Navbar>
       </div>
     </Container>

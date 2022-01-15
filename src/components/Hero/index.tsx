@@ -2,28 +2,17 @@ import { Button } from "../ButtonCTA";
 
 import { Container } from "./styles";
 
-interface HeroProps {
-  props: {
-    hero: {
-      title: string
-      subtitle: string
-      description: string
-      buttonCTA: string
-    }
-  }
-}
-
-export function Hero({ props }: HeroProps) {
+export function Hero() {
   return (
     <Container>
       <div>
-        <h1>{props.hero.title}</h1>
+        <h1>Lorem ipsum dolor sit amet ipsum dolor</h1>
 
-        <h2>{props.hero.subtitle}</h2>
+        <h2>Lorem consectetur adipiscing elit ut aliquam</h2>
 
-        <p>{props.hero.subtitle}</p>
+        <p>Lorem consectetur adipiscing elit ut aliquamLorem consectetur adipiscing elit ut aliquam</p>
 
-        <Button text={props.hero.buttonCTA}/>
+        <Button text="Experimente agora"/>
       </div>
     </Container>
   );
