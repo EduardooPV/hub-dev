@@ -22,7 +22,7 @@ export function Cases({ props }: CasesProps) {
     <>
       {
         Object.values(props.cases).map((section, index) => (
-          <Container invert={index}>
+          <Container key={index} invert={index}>
             <div>
               <Image src={section.icon} layout="responsive" alt="Imagem chamativa do case" aria-hidden="true"/>
             </div>
