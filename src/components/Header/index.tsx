@@ -26,8 +26,8 @@ export function Header({ props }: HeaderProps) {
                 </li>
               ))}
             </ul>
-          </div>
           <Button text="Baixe agora mesmo" />
+          </div>
         </Navbar>
       </div>
     </Container>

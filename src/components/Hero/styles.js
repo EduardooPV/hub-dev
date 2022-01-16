@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Background from "../../../public/components/Hero/bg-hero.jpg";
+import Background from "../../../public/components/Hero/bg-hero.webp";
 
 export const Container = styled.main`
   width: 100vw;
@@ -41,16 +41,17 @@ export const Container = styled.main`
       line-height: 1.2;
       font-family: Montserrat, sans-serif;
     }
-
+    
     h2 {
-      font-size: 1.5rem;
+      font-family: Montserrat, sans-serif;
+      font-size: 2rem;
     }
 
     p {
       margin: 1rem 0 5rem 0;
 
       font-size: 1.1rem;
-      line-height: 1.5;
+      line-height: 1.8;
     }
   }
 

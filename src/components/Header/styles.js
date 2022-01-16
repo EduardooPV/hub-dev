@@ -18,8 +18,13 @@ export const Container = styled.header`
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    
+    @media (min-width: 1024px) {
+      justify-content: space-between;
+    }
   }
+
 `
 
 export const Navbar = styled.nav`
@@ -31,6 +36,7 @@ export const Navbar = styled.nav`
     display: none;
 
     ul {
+      margin-right: 2rem;
       display: flex;
       align-items: center;
       gap: 0 2rem;

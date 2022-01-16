@@ -10,21 +10,24 @@ export const Container = styled.div`
   align-items: center;
   gap: 3rem;
 
-  div {
-    width: 100%;
-    height: 100%;
-    max-width: 500px;
-    max-height: 500px;
-  }
-
   @media(min-width: 1024px) {
     flex-direction: ${(props) => (props.invert == 1 ? 'row-reverse' : 'row')};
     justify-content: space-between;
   }
   `
 
+export const ContainerImage = styled.div`
+    width: 60%;
+    height: 60%;
+    max-width: 500px;
+    max-height: 500px;
+  }
+`
+
 export const Content = styled.div`
-  max-width: 650px;
+  width: 100%;
+      height: 100%;
+      max-width: 500px;
 
   display: flex;
   flex-direction: column;
@@ -32,7 +35,7 @@ export const Content = styled.div`
   gap: 3rem;
 
   h3 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
     text-align: center;
     font-family: Montserrat, sans-serif;
@@ -40,7 +43,7 @@ export const Content = styled.div`
 
   p {
     text-align: justify;
-    line-height: 1.5;
+    line-height: 1.8;
   }
 
   @media(min-width: 1024px) {
@@ -48,6 +51,7 @@ export const Content = styled.div`
     padding: 0;
 
     h3 {
+      font-size: 2.5rem;
       text-align:  ${(props) => (props.invert == 1 ? 'end' : 'start')};
     }
   }

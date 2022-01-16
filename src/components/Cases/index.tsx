@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { Button } from '../ButtonCTA'
 
-import { Container, Content } from './styles'
+import { Container, ContainerImage, Content } from './styles'
 
 interface CasesProps {
   props: {
@@ -23,9 +23,9 @@ export function Cases({ props }: CasesProps) {
       {
         Object.values(props.cases).map((section, index) => (
           <Container key={index} invert={index}>
-            <div>
+            <ContainerImage>
               <Image src={section.icon} layout="responsive" alt="Imagem chamativa do case" aria-hidden="true"/>
-            </div>
+            </ContainerImage>
 
             <Content invert={index}>
               <h3>{section.title}</h3>

@@ -13,8 +13,8 @@ export function BannerCTA() {
           <Button text="Download iOS" />
         </div>
 
-        <p>Aplicativo multiplataforma, baixe onde e quando quiser</p>
-        <p>*1º mês grátis.</p>
+        <p>Aplicativo multiplataforma, baixe onde e quando quiser.</p>
+        <p>Receba o primeiro mês grátis.</p>
       </div>
     </Container>
   )
