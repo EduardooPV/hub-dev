@@ -6,7 +6,7 @@ interface ButtonProps {
 
 export function Button({ text }: ButtonProps) {
   return (
-    <ButtonContainer href="">
+    <ButtonContainer href="/">
       {text}
     </ButtonContainer>
   )

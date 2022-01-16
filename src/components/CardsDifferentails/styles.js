@@ -43,6 +43,8 @@ export const Card = styled.div`
     margin-bottom: 2rem;
     color: var(--white);
     font-size: 1.1rem;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
   }
 
   p::after {
@@ -72,7 +74,7 @@ export const Card = styled.div`
     div {
       width: 70px;
       height: 70px;
-      background-color: var(--blue-300);
+      background-color: var(--blue-100);
     }
     
     p {
@@ -90,7 +92,7 @@ export const Card = styled.div`
 
     &:hover {
       background: var(--blue-300);
-      box-shadow: 7px 7px var(--black);
+      box-shadow: 10px 10px var(--green-300);
       
       div {
         background-color: var(--white);

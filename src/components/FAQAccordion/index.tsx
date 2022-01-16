@@ -75,14 +75,13 @@ export function FAQAccordion() {
           variant="scrollable"
           scrollButtons
           allowScrollButtonsMobile
-          centered
         >
           <Tab label="Vantagens" {...a11yProps(0)} />
           <Tab label="Android ou iOS?" {...a11yProps(1)} />
           <Tab label="Onde baixar o aplicativo?" {...a11yProps(2)} />
           <Tab label="Preciso pagar para testar?" {...a11yProps(3)} />
-          <Tab label="Erro de conexão" {...a11yProps(4)} />
-          <Tab label="Erro de conexão" {...a11yProps(5)} />
+          <Tab label="Canais de ajuda" {...a11yProps(4)} />
+          <Tab label="Problemas para entrar" {...a11yProps(5)} />
         </Tabs>
       </AppBar>
       <SwipeableViews

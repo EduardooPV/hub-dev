@@ -15,7 +15,7 @@ export const Container = styled.section`
     align-items: center;
     gap: 1rem;
     
-    h5 {
+    h4 {
       font-size: 2.5rem;
       color: var(--white);
       text-align: center;
@@ -30,6 +30,9 @@ export const Container = styled.section`
 
   @media(min-width: 1024px) {
     div {
+      h4 {
+        font-size: 3rem;
+      }
       div {
         flex-direction: row;
       }

@@ -8,8 +8,7 @@ export const Container = styled.header`
   
   position: fixed;
 
-  
-  background-color: var(--blue-300);
+  background-color: var(--blue-500);
 
   z-index: 1;
 

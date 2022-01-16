@@ -31,10 +31,11 @@ export const Content = styled.div`
   align-items: center;
   gap: 3rem;
 
-  h4 {
+  h3 {
     font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
+    font-family: Montserrat, sans-serif;
   }
 
   p {
@@ -46,7 +47,7 @@ export const Content = styled.div`
     align-items: ${(props) => (props.invert == 1 ? 'end' : 'start')};
     padding: 0;
 
-    h4 {
+    h3 {
       text-align:  ${(props) => (props.invert == 1 ? 'end' : 'start')};
     }
   }

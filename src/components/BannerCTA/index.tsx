@@ -6,7 +6,7 @@ export function BannerCTA() {
   return (
     <Container>
       <div>
-        <h5>Baixe e teste agora mesmo!</h5>
+        <h4>Baixe e teste agora mesmo!</h4>
 
         <div>
           <Button text="Download Android" />
@@ -14,6 +14,7 @@ export function BannerCTA() {
         </div>
 
         <p>Aplicativo multiplataforma, baixe onde e quando quiser</p>
+        <p>*1º mês grátis.</p>
       </div>
     </Container>
   )

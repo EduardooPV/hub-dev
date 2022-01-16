@@ -5,14 +5,14 @@ import { Container } from "./styles";
 export function Hero() {
   return (
     <Container>
-      <div>
-        <h1>Lorem ipsum dolor sit amet ipsum dolor</h1>
+      <div className='transitionOpacity'>
+        <h1>Atraia clientes de qualquer lugar a qualquer hora</h1>
 
-        <h2>Lorem consectetur adipiscing elit ut aliquam</h2>
+        <h2>Lançamento do novo aplicativo da HubLocal.</h2>
 
-        <p>Lorem consectetur adipiscing elit ut aliquamLorem consectetur adipiscing elit ut aliquam</p>
+        <p>Aumente o trafego de clientes em sua empresa, com a <strong>HubLocal</strong> você será notado em mais de 50 mecanismos de busca, agora podendo consultar suas estatisticas e resultados direto do seu celular.</p>
 
-        <Button text="Experimente agora"/>
+        <Button text="Baixe agora mesmo"/>
       </div>
     </Container>
   );

@@ -28,7 +28,7 @@ export function Cases({ props }: CasesProps) {
             </div>
 
             <Content invert={index}>
-              <h4>{section.title}</h4>
+              <h3>{section.title}</h3>
 
               <p>{section.description}</p>
 
