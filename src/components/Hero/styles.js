@@ -67,7 +67,6 @@ export const Container = styled.main`
     background-position: center 60px;
 
     div {
-      padding: 0;
       align-items: start;
       text-align: start;
 

@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
   --green-300: #04D98B;
   --green-600: #00B271;
 
+  --gray-200: #e1e1e1;
   --gray-300: #a8a8b3;
   --gray-800: #29292e;
   --gray-900: #121214; 

@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
   max-width: 1240px;
   margin: 2rem auto;
+  padding: 0 5%;
 
   .react-slideshow-wrapper.slide {
     padding: 1rem;
