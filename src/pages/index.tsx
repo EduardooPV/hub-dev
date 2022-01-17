@@ -73,90 +73,114 @@ const props = {
       description: "Serviço básico",
       services: [
         {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          iconService: Check.src,
+          typeService: "Extração de dados",
         },
         {
           iconService: Check.src,
           typeService: "Lorem Ipsum",
         },
         {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          iconService: Check.src,
+          typeService: "Gráficos",
         },
         {
           iconService: Check.src,
-          typeService: "Lorem Ipsum",
-        },
-        {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          typeService: "Lorem ipsum",
         },
         {
           iconService: Check.src,
-          typeService: "Lorem Ipsum",
+          typeService: "Um usuário",
+        },
+        {
+          iconService: UnCheck.src,
+          typeService: "Suporte 24/7",
+        },
+        {
+          iconService: UnCheck.src,
+          typeService: "Lorem ipsum",
+        },
+        {
+          iconService: UnCheck.src,
+          typeService: "Relatório detalhado",
         },
       ],
     },
     plan2: {
-      type: "Basic",
+      type: "Standard",
       price: "$50",
       description: "Serviço completo",
       services: [
         {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          iconService: Check.src,
+          typeService: "Extração de dados",
         },
         {
           iconService: Check.src,
           typeService: "Lorem Ipsum",
         },
         {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          iconService: Check.src,
+          typeService: "Gráficos",
         },
         {
           iconService: Check.src,
-          typeService: "Lorem Ipsum",
-        },
-        {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          typeService: "Lorem ipsum",
         },
         {
           iconService: Check.src,
-          typeService: "Lorem Ipsum",
+          typeService: "Quatro usuários",
+        },
+        {
+          iconService: Check.src,
+          typeService: "Suporte 24/7",
+        },
+        {
+          iconService: UnCheck.src,
+          typeService: "Lorem ipsum",
+        },
+        {
+          iconService: UnCheck.src,
+          typeService: "Relatório detalhado",
         },
       ],
     },
     plan3: {
-      type: "Basic",
+      type: "Premium",
       price: "$80",
       description: "Serviço premium",
       services: [
         {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          iconService: Check.src,
+          typeService: "Extração de dados",
         },
         {
           iconService: Check.src,
           typeService: "Lorem Ipsum",
         },
         {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          iconService: Check.src,
+          typeService: "Gráficos",
         },
         {
           iconService: Check.src,
-          typeService: "Lorem Ipsum",
-        },
-        {
-          iconService: UnCheck.src,
-          typeService: "Lorem",
+          typeService: "Lorem ipsum",
         },
         {
           iconService: Check.src,
-          typeService: "Lorem Ipsum",
+          typeService: "Um usuário",
+        },
+        {
+          iconService: Check.src,
+          typeService: "Suporte 24/7",
+        },
+        {
+          iconService: Check.src,
+          typeService: "Lorem ipsum",
+        },
+        {
+          iconService: Check.src,
+          typeService: "Relatório detalhado",
         },
       ],
     },

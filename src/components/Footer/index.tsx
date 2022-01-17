@@ -7,7 +7,7 @@ import {
   ContainerLink,
 } from "./styles";
 
-import Logo from "../../../public/logo.svg";
+import Logo from "../../../public/logo.png";
 import GooglePlay from "../../../public/components/Footer/googleplay.svg";
 import Facebook from "../../../public/components/Footer/facebook.svg";
 import Instagram from "../../../public/components/Footer/instagram.svg";
@@ -31,28 +31,28 @@ export function Footer() {
               <div>
                 <p>Sobre</p>
                 <ul>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
+                  <li>Blog</li>
+                  <li>CNPJ</li>
+                  <li>Feitos</li>
                 </ul>
               </div>
               <div>
                 <p>Serviços</p>
                 <ul>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
+                  <li>Nossos diferenciais</li>
+                  <li>Trabalhe conosco</li>
+                  <li>Nossos cases</li>
+                  <li>Planos</li>
                 </ul>
               </div>
               <div>
                 <p>Contato</p>
                 <ul>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
-                  <li>Lorem ipsum</li>
+                  <li>Play Store</li>
+                  <li>Facebook</li>
+                  <li>Instagram</li>
+                  <li>Twitter</li>
+                  <li>TikTok</li>
                 </ul>
               </div>
             </ContainerLink>

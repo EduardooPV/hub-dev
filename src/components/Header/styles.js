@@ -41,7 +41,8 @@ export const Navbar = styled.nav`
       align-items: center;
       gap: 0 2rem;
 
-      li {
+      li a {
+        padding: 0.5rem;
         font-size: 1.2rem;
         color: var(--white);
         transition: all 0.2s;

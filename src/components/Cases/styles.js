@@ -42,7 +42,7 @@ export const Content = styled.div`
   }
 
   p {
-    text-align: justify;
+    text-align: ${(props) => (props.invert == 1 ? 'end' : 'start')};
     line-height: 1.8;
   }
 

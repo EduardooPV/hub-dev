@@ -30,7 +30,7 @@ export const CardPlan = styled.div`
 
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.5rem;
 
   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
 
@@ -50,12 +50,13 @@ export const CardPlan = styled.div`
   ul {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.2rem;
   }
   ul li {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.8rem;
+    line-height: 0;
     
     p {
       font-size: 1.1rem;

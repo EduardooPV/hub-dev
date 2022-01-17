@@ -79,8 +79,9 @@ export const ContainerLink = styled.nav`
     ul li {
       margin-top: 1rem;
       color: var(--gray-200);
-      opacity: 0.9;
+      opacity: 0.95;
       cursor: pointer;
+      text-align: center;
 
         &:hover {
           opacity: 1;

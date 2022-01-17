@@ -68,8 +68,8 @@ export function Plans({ props }: PlansProps) {
                     src={service.iconService}
                     alt="Icone que contem no plano"
                     aria-hidden="true"
-                    height={25}
-                    width={25}
+                    height={15}
+                    width={15}
                   />
                   <p>{service.typeService}</p>
                 </li>

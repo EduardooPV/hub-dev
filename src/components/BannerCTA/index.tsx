@@ -14,7 +14,6 @@ export function BannerCTA() {
         </div>
 
         <p>Aplicativo multiplataforma, baixe onde e quando quiser.</p>
-        <p>Receba o primeiro mês grátis.</p>
       </div>
     </Container>
   )

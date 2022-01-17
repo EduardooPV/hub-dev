@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Background from "../../../public/components/Hero/bg-hero.webp";
 
 export const Container = styled.main`
-  width: 100vw;
   min-height: 100vh;
 
   // Acho melhor para ler...
