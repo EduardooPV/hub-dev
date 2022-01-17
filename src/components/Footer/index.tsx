@@ -5,8 +5,6 @@ import {
   ContainerContent,
   ContainerImage,
   ContainerLink,
-  ContainerSocial,
-  Copyright,
 } from "./styles";
 
 import Logo from "../../../public/logo.svg";
