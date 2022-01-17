@@ -12,12 +12,7 @@ interface PlansProps {
         type: string;
         price: string;
         description: string;
-        services: [
-          {
-            iconService: string;
-            typeService: string;
-          }
-        ];
+        services: Array<{ iconService: string; typeService: string }>;
       };
     };
   };
