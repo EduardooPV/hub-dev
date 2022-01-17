@@ -6,7 +6,7 @@ export const Container = styled.section`
   padding: 0 5%;
 
   .react-slideshow-wrapper.slide {
-    padding: 1rem;
+    padding: 1rem 0;
   }
 `
 

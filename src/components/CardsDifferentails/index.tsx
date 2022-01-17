@@ -32,7 +32,7 @@ export function CardDifferentails({ props }: CardDifferentailsProps) {
   if(isWidth < 1024) {
     properties = {
       indicators: true,
-      duration: 2000,
+      duration: 5000,
       arrows: false,
       easing: "ease-out",
       infinite: true,

@@ -35,7 +35,7 @@ export const Container = styled.main`
     transform: rotateY(180deg);
 
     h1 {
-      margin-bottom: 4rem;
+      margin-bottom: 2rem;
       font-size: 3.125rem;
       font-weight: bold;
       line-height: 1.2;
@@ -48,7 +48,7 @@ export const Container = styled.main`
     }
 
     p {
-      margin: 1rem 0 5rem 0;
+      margin: 1rem 0 2rem 0;
 
       font-size: 1.1rem;
       line-height: 1.8;

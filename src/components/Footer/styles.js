@@ -20,6 +20,7 @@ export const Container = styled.footer`
     text-align: center;
     font-size: 0.9rem;
     color: var(--gray-900);
+    font-family: Montserrat, sans-serif;
     background-color: var(--white);
   }
 `;
@@ -63,12 +64,12 @@ export const ContainerLink = styled.nav`
   
   div {
     min-width: 150px;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-
+    
     p {
       font-size: 1.2rem;
       color: var(--white);
