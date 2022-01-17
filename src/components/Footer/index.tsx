@@ -9,8 +9,8 @@ import {
 
 import Logo from "../../../public/logo.svg";
 import GooglePlay from "../../../public/components/Footer/googleplay.svg";
-import Facebook from "../../../public/components/Footer/Facebook.svg";
-import Instagram from "../../../public/components/Footer/Instagram.svg";
+import Facebook from "../../../public/components/Footer/facebook.svg";
+import Instagram from "../../../public/components/Footer/instagram.svg";
 
 export function Footer() {
   return (
