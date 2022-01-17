@@ -58,7 +58,7 @@ export const CardPlan = styled.div`
     gap: 0.5rem;
     
     p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       color: var(--gray-900)!important;
     }
   }

@@ -88,6 +88,14 @@ const props = {
           iconService: Check.src,
           typeService: "Lorem Ipsum",
         },
+        {
+          iconService: UnCheck.src,
+          typeService: "Lorem",
+        },
+        {
+          iconService: Check.src,
+          typeService: "Lorem Ipsum",
+        },
       ],
     },
     plan2: {
@@ -111,6 +119,14 @@ const props = {
           iconService: Check.src,
           typeService: "Lorem Ipsum",
         },
+        {
+          iconService: UnCheck.src,
+          typeService: "Lorem",
+        },
+        {
+          iconService: Check.src,
+          typeService: "Lorem Ipsum",
+        },
       ],
     },
     plan3: {
@@ -118,6 +134,14 @@ const props = {
       price: "$80",
       description: "Serviço premium",
       services: [
+        {
+          iconService: UnCheck.src,
+          typeService: "Lorem",
+        },
+        {
+          iconService: Check.src,
+          typeService: "Lorem Ipsum",
+        },
         {
           iconService: UnCheck.src,
           typeService: "Lorem",
