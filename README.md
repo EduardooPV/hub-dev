@@ -1,6 +1,6 @@
 <h1 align="center">HubDev</h1>
 
-Como objetivo principal do desafio, criar uma Landing Page apresentando um produto que resolvesse o seguinte problema: **"Explique por que as empresas devem ter a acesso e serem clientes da HubLocal"**, com base nesse problema resolvi criar o lançamento de um **aplicativo** de celular, visto que atualmente existem muitos usuários de mobile(realizei algumas pesquisas e a HubLocal não possui nenhuma aplicação mobile).
+Como objetivo principal do desafio, criar uma Landing Page apresentando um produto que resolvesse o seguinte problema: **"Explique por que as empresas devem ter a acesso e serem clientes da HubLocal"**, com base nesse problema resolvi criar o lançamento de um **aplicativo** de celular, visto que atualmente existem muitos usuários de mobile(realizei algumas pesquisas e a HubLocal não possui nenhuma aplicação mobile), tive contato pela primeira vez com TypeScript e configurando o ESLint com o EditorConfig.
 
 ---
 
