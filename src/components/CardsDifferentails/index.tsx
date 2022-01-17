@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+import React from "react";
 import Image from "next/image";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
@@ -9,12 +11,12 @@ interface CardDifferentailsProps {
   props: {
     cardDifferentails: {
       card1: {
-        icon: any
-        title: string
-        description: string
-      }
-    }
-  }
+        icon: string;
+        title: string;
+        description: string;
+      };
+    };
+  };
 }
 
 export function CardDifferentails({ props }: CardDifferentailsProps) {
@@ -27,9 +29,9 @@ export function CardDifferentails({ props }: CardDifferentailsProps) {
     });
   });
 
-  let properties = {}
+  let properties = {};
 
-  if(isWidth < 1024) {
+  if (isWidth < 1024) {
     properties = {
       indicators: true,
       duration: 5000,
@@ -49,23 +51,19 @@ export function CardDifferentails({ props }: CardDifferentailsProps) {
 
   return (
     <Container>
-        <Slide {...properties}>
+      <Slide {...properties}>
+        {Object.values(props.cardDifferentails).map((card, index) => (
+          <Card key={index}>
+            <div>
+              <Image src={card.icon} alt="Icone" aria-hidden="true" />
+            </div>
 
-          {
-            Object.values(props.cardDifferentails).map((card, index) => (
-              <Card key={index}>
-                <div>
-                  <Image src={card.icon} alt="Icone" aria-hidden="true" />
-                </div>
+            <p>{card.title}</p>
 
-                <p>{card.title}</p>
-
-                <span>{card.description}</span>
-              </Card>
-            ))
-          }
-          
-        </Slide>
+            <span>{card.description}</span>
+          </Card>
+        ))}
+      </Slide>
     </Container>
   );
 }

@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+import React from "react";
 import Image from "next/image";
 import Logo from "../../../public/logo.png";
 
@@ -6,7 +8,7 @@ import { Button } from "../ButtonCTA";
 import { Container, Navbar } from "./styles";
 interface HeaderProps {
   props: {
-    header: string[]
+    header: string[];
   };
 }
 
@@ -26,7 +28,7 @@ export function Header({ props }: HeaderProps) {
                 </li>
               ))}
             </ul>
-          <Button text="Baixe agora mesmo" />
+            <Button text="Baixe agora mesmo" />
           </div>
         </Navbar>
       </div>

@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+import React from "react";
 import Image from "next/image";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";

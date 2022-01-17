@@ -1,6 +1,7 @@
-import type { AppProps } from 'next/app'
-import Head from 'next/head'
-import GlobalStyle from "../styles/GlobalStyled"
+import React from "react";
+import type { AppProps } from "next/app";
+import Head from "next/head";
+import GlobalStyle from "../styles/GlobalStyled";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -12,7 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <GlobalStyle />
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

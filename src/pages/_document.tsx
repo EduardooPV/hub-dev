@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
-
   static async getInitialProps(ctx: any) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
+    const initialProps = await Document.getInitialProps(ctx);
+    return { ...initialProps };
   }
 
   render() {
@@ -25,7 +26,7 @@ class MyDocument extends Document {
             content="Verifique em qual das plataformas integradas com a HubLocal os seus clientes encontraram a sua empresa"
           />
           <meta name="author" content="Luiz Eduardo Prado Veltroni" />
-          
+
           <link rel="shortcut icon" href="favicon.png" />
         </Head>
         <body>

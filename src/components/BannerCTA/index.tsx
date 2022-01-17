@@ -1,6 +1,7 @@
-import { Container } from './styles'
+import React from "react";
+import { Container } from "./styles";
 
-import { Button } from '../ButtonCTA'
+import { Button } from "../ButtonCTA";
 
 export function BannerCTA() {
   return (
@@ -16,5 +17,5 @@ export function BannerCTA() {
         <p>Aplicativo multiplataforma, baixe onde e quando quiser.</p>
       </div>
     </Container>
-  )
+  );
 }

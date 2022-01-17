@@ -1,13 +1,10 @@
-import { ButtonContainer } from './styles' 
+import React from "react";
+import { ButtonContainer } from "./styles";
 
 interface ButtonProps {
-  text: string
+  text: string;
 }
 
 export function Button({ text }: ButtonProps) {
-  return (
-    <ButtonContainer href="/">
-      {text}
-    </ButtonContainer>
-  )
-} 
+  return <ButtonContainer href="/">{text}</ButtonContainer>;
+}
