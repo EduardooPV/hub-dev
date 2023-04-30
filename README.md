@@ -62,10 +62,7 @@ Inicialmente esboçei um Wireframe com algumas ideias, após o Wireframe feito, 
 
 #### Visite o site: [CLICANDO AQUI!](https://hub-dev.vercel.app/)
 
-<h2 align='center'>📌 PREVIEW -WEB- 📌</h2> </br>
+<h2 align='center'>📌 PREVIEW 📌</h2> 
+</br>
+<img src="https://github.com/EduardooPV/hub-dev/blob/2c19c9ce2032963ff0a4b3d2715d5fe9a4ba95ab/public/Preview.gif" />
 
-![image](https://user-images.githubusercontent.com/69824782/149769993-d25c3364-df65-4d2e-87fe-6be731d8bac0.png)
-
-<h2 align='center'>📌 PREVIEW -MOBILE- 📌</h2> </br>
-
-![image](https://user-images.githubusercontent.com/69824782/149770155-666b2e57-8fa8-4e44-9c36-f2daa2681ca2.png)
